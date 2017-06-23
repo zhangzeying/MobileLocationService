@@ -1,0 +1,10 @@
+{
+  "redis": {
+    "active": false,
+    "host": "127.0.0.1",
+    "port": 6479,
+    "listKey":"mobilelocationUserLocationKey",
+    "userLocationKeyPrefix":"mobilelocation"
+  },
+  "secret":"mblocation"
+}
