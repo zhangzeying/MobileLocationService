@@ -21,6 +21,7 @@
     "node-schedule": "^1.2.1",
     "promise-mysql": "^3.0.1",
     "redis": "^2.7.1",
-    "serve-favicon": "~2.4.2"
+    "serve-favicon": "~2.4.2",
+    "superagent": "^3.5.2"
   }
 }

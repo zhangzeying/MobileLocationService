@@ -603,6 +603,7 @@ const authorizationForUser = (req,res) => {
 
 //获取当天的授权数量和注册用户数量
 const getStatisticsCount = (req,res) => {
+
     try {
 
         let dataArr = [];

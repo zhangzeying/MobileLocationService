@@ -84,9 +84,6 @@ const updateUserAgreement = (req, res) => {
     }
 }
 
-
-
-
 router.get('/control', control);
 router.get('/getUserAgreement', async(getUserAgreement));
 router.post('/updateUserAgreement', async(updateUserAgreement));

@@ -12,7 +12,7 @@ var customerService = require('./routes/customerService');
 var system = require('./routes/system');
 var sms = require('./routes/sms');
 var backgroudSetting = require('./routes/backgroudSetting');
-
+var order = require('./routes/order');
 var util = require('./util/util');
 
 var app = express();
@@ -35,6 +35,7 @@ app.use('/system', system);
 app.use('/customerService', customerService);
 app.use('/sms', sms);
 app.use('/backgroudSetting', backgroudSetting);
+app.use('/order', order);
 
 util.deleteUserTask();
 util.updateDataFromRedisToSqlTask();

@@ -181,7 +181,6 @@ const setNotification = (req, res) => {
 }
 
 
-
 router.get('/getAllBackGround', async(getAllBackGround));
 router.post('/setBackGroundPassword', async(setBackGroundPassword));
 router.post('/checkBackGroundPwd', async(checkBackGroundPwd));
